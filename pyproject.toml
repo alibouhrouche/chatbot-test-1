@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chatbot1"
+version = "0.1.0"
+description = ""
+authors = ["Ali Bouhrouche <ali@iev.ma>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.40.1"
+litellm = "^1.52.15"
+langchain = "^0.3.8"
+langchain-community = "^0.3.8"
+langchain-openai = "^0.2.9"
+chromadb = "^0.5.20"
+langchain-chroma = ">=0.1.2"
+langfuse = "^2.54.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
